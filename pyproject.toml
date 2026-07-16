@@ -5,6 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "jupyter>=1.1.1",
-    "lab>=8.10",
+
+
+    "playwright>=1.61.0",
+]
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.39.9",
+    "jupyterlab-lsp>=5.3.0",
 ]
